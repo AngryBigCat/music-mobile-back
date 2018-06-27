@@ -1,17 +1,31 @@
 package model
 
 type Music struct {
-	MusicId int
-	Name string
-	Number string
-	Category string
-	Duration string
+	Mid int `json:"id"`
+	P_id int `json:"pid"`
+	Name string `json:"name"`
+	Num string `json:"number"`
+	Site string `json:"filename"`
+	Mytime string `json:"duration"`
+	Att string `json:"remark"`
 }
 
-func getMusicList() {
+var (
+	musics []Music
+	music Music
+)
 
+func GetMusicList() []Music {
+	db.Table("ml_detail").Find(&musics)
+	return musics
 }
 
-func getMusic() {
+func GetMusic(id string) Music {
+	db.Table("ml_detail").Where("mid = ?", id).First(&music)
+	return music
+}
 
+func GetMusicListIn(ids []int) []Music {
+	db.Table("ml_detail").Where("mid in (?)", ids).Find(&musics)
+	return musics
 }
