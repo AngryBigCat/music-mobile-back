@@ -2,7 +2,6 @@ package router
 
 import (
 	"github.com/gin-gonic/gin"
-	"music-mobile-back/controller/v1"
 	"github.com/gin-contrib/cors"
 )
 
@@ -19,18 +18,6 @@ func Init() *gin.Engine {
 	v1Group()
 
 	return r
-}
-
-/*
-  定义api v1路由组
-  需要将该函数注册在Init()方法里
- */
-func v1Group() {
-	v := r.Group("/api/v1")
-	{
-		v.GET("/music", v1.GetMusicList)
-		v.GET("/music/:id", v1.GetMusic)
-	}
 }
 
 
