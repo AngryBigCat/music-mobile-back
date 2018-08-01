@@ -3,6 +3,9 @@ language: go
 go:
   - "1.10.x"
 
+before_install:
+  - pwd
+
 script:
   - pwd
   - env GOOS=linux GOARCH=amd64
