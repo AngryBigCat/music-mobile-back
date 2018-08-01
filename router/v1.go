@@ -15,10 +15,15 @@ func v1Group() {
 	v.POST("/register", v1.Register)
 	v.GET("/getCode", v1.GetCode)
 
+	v.GET("/home/text", v1.GetHomeText)
 	v.GET("/musics", v1.GetMusics)
 	v.GET("/music/:id", v1.GetMusic)
 
 	v.GET("/inviters", v1.GetInviters)
 
 	v.GET("/order", v1.GetOrder)
+	v.POST("/order", v1.PostOrder)
+	v.GET("/orders", v1.GetOrders)
+
+	v.POST("/pay", v1.Pay)
 }
