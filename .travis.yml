@@ -3,8 +3,11 @@ language: go
 go:
   - "1.10.x"
 
+env:
+  - GOOS=linux
+  - GOARCH=amd64
+
 script:
   - pwd
-  - env GOOS=linux GOARCH=amd64
   - go build main.go
   - ls
