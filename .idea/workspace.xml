@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17e19114-144c-4f9b-b32f-100a75f971d4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/v1/home.go" beforeDir="false" afterPath="$PROJECT_DIR$/controller/v1/home.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/v1/inviter.go" beforeDir="false" afterPath="$PROJECT_DIR$/controller/v1/inviter.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/v1/music.go" beforeDir="false" afterPath="$PROJECT_DIR$/controller/v1/music.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/v1/order.go" beforeDir="false" afterPath="$PROJECT_DIR$/controller/v1/order.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/v1/pay.go" beforeDir="false" afterPath="$PROJECT_DIR$/controller/v1/pay.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/v1/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/controller/v1/user.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/model.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/user.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/v1.go" beforeDir="false" afterPath="$PROJECT_DIR$/router/v1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="180">
+              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
               <folding>
                 <element signature="e#14#87#0" expanded="true" />
               </folding>
@@ -113,20 +103,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="model.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/model.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
               <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="music.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/music.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -169,7 +159,6 @@
         <option value="$PROJECT_DIR$/../github.com/AngryBigCat/gopay/client/wechatwap.go" />
         <option value="$PROJECT_DIR$/model/order.go" />
         <option value="$PROJECT_DIR$/model/home.go" />
-        <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/controller/v1/home.go" />
         <option value="$PROJECT_DIR$/controller/v1/inviter.go" />
         <option value="$PROJECT_DIR$/controller/v1/music.go" />
@@ -180,6 +169,7 @@
         <option value="$PROJECT_DIR$/model/user.go" />
         <option value="$PROJECT_DIR$/router/v1.go" />
         <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -268,7 +258,7 @@
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19930555" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19930555" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
@@ -276,7 +266,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2884371" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32401526" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32401526" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3303685" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -389,13 +379,6 @@
     <entry file="file://$PROJECT_DIR$/../github.com/AngryBigCat/gopay/pay.go" />
     <entry file="file://$PROJECT_DIR$/../github.com/AngryBigCat/gopay/client/wechatweb.go" />
     <entry file="file://$PROJECT_DIR$/../github.com/guidao/gopay/common/common.go" />
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controller/v1/inviter.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -534,11 +517,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="180">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
           <folding>
             <element signature="e#14#87#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
         </state>
       </provider>
     </entry>
