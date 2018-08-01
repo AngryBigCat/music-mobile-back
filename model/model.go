@@ -4,7 +4,7 @@ import (
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 	"log"
-	"music-mobile-back/config"
+	"github.com/AngryBigCat/music-mobile-back/config"
 	"fmt"
 	"github.com/go-redis/redis"
 )

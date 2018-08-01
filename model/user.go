@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"github.com/goroom/aliyun_sms"
 	"log"
-	"music-mobile-back/config"
+	"github.com/AngryBigCat/music-mobile-back/config"
 )
 
 type User struct {

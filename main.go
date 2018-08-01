@@ -1,9 +1,9 @@
 package main
 
 import (
-	"music-mobile-back/router"
+	"github.com/AngryBigCat/music-mobile-back/router"
 	"fmt"
-	"music-mobile-back/config"
+	"github.com/AngryBigCat/music-mobile-back/config"
 )
 
 func main() {

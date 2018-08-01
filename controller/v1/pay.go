@@ -2,7 +2,7 @@ package v1
 
 import (
 	"github.com/gin-gonic/gin"
-	"music-mobile-back/model"
+	"github.com/AngryBigCat/music-mobile-back/model"
 	"fmt"
 	"net/http"
 	"io/ioutil"

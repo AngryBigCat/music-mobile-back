@@ -1,7 +1,7 @@
 package router
 
 import (
-	"music-mobile-back/controller/v1"
+	"github.com/AngryBigCat/music-mobile-back/controller/v1"
 )
 
 /*
